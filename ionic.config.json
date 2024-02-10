@@ -1,0 +1,7 @@
+{
+  "name": "interactive-utma-map",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "custom"
+}
