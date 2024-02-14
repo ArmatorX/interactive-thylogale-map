@@ -10,7 +10,7 @@ export default function Map(props: MapProps) {
     <div className="relative bg-[var(--ocean-default)]">
       <Image
         className="z-0"
-        src="/thylogale/land.png"
+        src="/interactive-thylogale-map/thylogale/land.png"
         alt="Thylogale Land"
         width={2970}
         height={2100}
@@ -23,7 +23,7 @@ export default function Map(props: MapProps) {
         !props.showLayers?.includes("height") && (
           <Image
             className="absolute top-0 left-0 z-10"
-            src="/thylogale/country-colors.png"
+            src="/interactive-thylogale-map/thylogale/country-colors.png"
             alt="Thylogale Countries Colored"
             width={2970}
             height={2100}
@@ -33,7 +33,7 @@ export default function Map(props: MapProps) {
       {props.showLayers?.includes("biomes") && (
         <Image
           className="absolute top-0 left-0 z-10"
-          src="/thylogale/biomes.png"
+          src="/interactive-thylogale-map/thylogale/biomes.png"
           alt="Thylogale Biomes"
           width={2970}
           height={2100}
@@ -43,7 +43,7 @@ export default function Map(props: MapProps) {
       {props.showLayers?.includes("height") && (
         <Image
           className="absolute top-0 left-0 z-10"
-          src="/thylogale/height.png"
+          src="/interactive-thylogale-map/thylogale/height.png"
           alt="Thylogale Height"
           width={2970}
           height={2100}
@@ -53,7 +53,7 @@ export default function Map(props: MapProps) {
       {props.showLayers?.includes("rivers") && (
         <Image
           className="absolute top-0 left-0 z-20"
-          src="/thylogale/rivers.png"
+          src="/interactive-thylogale-map/thylogale/rivers.png"
           alt="Thylogale Rivers"
           width={2970}
           height={2100}
@@ -65,7 +65,7 @@ export default function Map(props: MapProps) {
       {props.showLayers?.includes("countries") && (
         <Image
           className="absolute top-0 left-0 z-30"
-          src="/thylogale/country-limits.png"
+          src="/interactive-thylogale-map/thylogale/country-limits.png"
           alt="Thylogale Countries"
           width={2970}
           height={2100}
@@ -74,7 +74,7 @@ export default function Map(props: MapProps) {
 
       <Image
         className="absolute top-0 left-0 z-[100]"
-        src="/thylogale/land-limits.png"
+        src="/interactive-thylogale-map/thylogale/land-limits.png"
         alt="Thylogale Borders"
         width={2970}
         height={2100}
@@ -85,7 +85,7 @@ export default function Map(props: MapProps) {
       {props.showLayers?.includes("countries") && (
         <Image
           className="absolute top-0 left-0 z-[200]"
-          src="/thylogale/country-names.png"
+          src="/interactive-thylogale-map/thylogale/country-names.png"
           alt="Thylogale Countries Names"
           width={2970}
           height={2100}
