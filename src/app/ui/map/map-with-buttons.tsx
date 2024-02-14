@@ -4,7 +4,7 @@ import Map from "./map";
 import { MapLayer } from "./map-layer";
 
 export default function MapWithButtons() {
-  const divRef = useRef(null);
+  const divRef = useRef<HTMLDivElement>(null);
   const [scale, setScale] = useState(1);
   const [layers, setLayers] = useState<MapLayer[]>([]);
   const [exclusiveLayer, setExclusiveLayer] = useState<MapLayer | null>(null);

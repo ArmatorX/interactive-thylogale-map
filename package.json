@@ -1,14 +1,12 @@
 {
-  "name": "interactive-utma-map",
+  "name": "interactive-thylogale-map",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "ionic:build": "npm run build",
-    "ionic:serve": "npm run start"
+    "lint": "next lint"
   },
   "dependencies": {
     "react": "^18",
